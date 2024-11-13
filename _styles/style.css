@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 100px;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../_imgs/noteetmachine.jpg);
+    background-size: cover;
+    background-position: 50% 65%;
+}
+
+header nav div img{
+    height: 40px;
+    width: auto;
+}
+
+nav{
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+header div img{
+    width: 100px;
+    height: auto;
+}
+
+header nav a{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+h1, header p{
+    color: white !important; 
+}
+
+h2{
+    color: chocolate;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+h3{
+    color: chocolate;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.sousTitre p{
+    margin-bottom: 50px;
+}
+
+header p{
+    text-shadow: 1px 1px 2px black;
+    padding:  0px 250px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.projects{
+    background-color: chocolate;
+    color: white;
+}
+
+.projects .project h3{
+    color: white;
+}
+
+.projects .project .projectImg{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 70px;
+    height: 70px;
+}
+
+.project img{
+    width: 45px;
+    height: 45px;
+}
+
+.projects .project{
+    padding: 40px 30px;
+}
+
+.projects .project h3{
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.projects .project p{
+    text-align: justify;
+}
+
+.idea{
+    background-image: url(/_imgs/ordi.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.idea p{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+}
+
+.idea .relative{
+    width: 300px;
+    left: 30%;
+}
+
+.ideaCadre{
+    width: 722px;
+    height: 120px;
+    background-color: rgb(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+}
+
+.realisations .flexRow .cards{
+    width: 300px;
+    height: 300px;
+}
+
+.realisations .flexRow .cards img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.why{
+    background-image: url("../_imgs/back.jpg");
+    background-repeat: repeat;
+}
+
+.why .container h2{
+    margin-top: 0;
+    padding-top: 2rem;
+}
+
+.why .container .flexRow div{
+    width: calc(100% / 3);
+}
+.why .container .flexRow div h3{
+    margin: 40px 0;
+}
+
+.why .container .flexRow div img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: chocolate;
+    padding: 60px 0;
+    color: white;
+}
+
+footer .container div{
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+
+footer .container div:last-child{
+    border-right: none;
+}
+
+footer .container div p{
+    text-align: justify;
+}
